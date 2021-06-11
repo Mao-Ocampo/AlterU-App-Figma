@@ -186,10 +186,10 @@ main {
 
 .main-info-glotones-logo {
     position: absolute;
-    width: 40px;
-    height: 22px;
-    top: -12px;
-    left: calc(50% - 20px);
+    width: 60px;
+    height: 33px;
+    top: -17px;
+    left: calc(50% - 30px);
     background-image: url("/assets/img/logo/glotones-blanco.png");
     background-size: cover;
     background-position: center;
@@ -202,7 +202,7 @@ main {
     max-width: 500px;
     height: 80px;
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 35px;
     margin-bottom: 10px;
     background-image: url("/assets/img/others/background-section-4-1.jpg");
     background-size: cover;
@@ -263,4 +263,46 @@ main {
     transform: translateY(50%);
     color: var(--white-food);
     text-shadow: 2px 2px 2px black;
+}
+
+footer {
+    width: 90%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background: var(--white-food);
+}
+
+.footer-logo-glotones {
+    width: 100px;
+    height: 18px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-image: url("/assets/img/logo/glotones-full.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer-social-media {
+    margin-top: 15px;
+    display:flex;
+    justify-content: center;
+}
+
+.footer-social-media img {
+    width: 80px;
+    height: 80px;
+    padding: 0 25px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+footer p img {
+    width: 12px;
+    margin-left: 2px;
+    transform: translateY(3px);
 }
