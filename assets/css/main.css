@@ -168,7 +168,99 @@ main {
 .tables-container-slider::-webkit-scrollbar {
     background-color: var(--soft-orange);
     height: 3px;
-  }
+}
+
 .tables-container-slider::-webkit-scrollbar-thumb {
     background-color: var(--bitcoin-orange);
-  }
+}
+
+.main-info-container {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    margin-top: 60px;
+    padding: 20px 10px;
+    background: var(--yellow-food);
+}
+
+.main-info-glotones-logo {
+    position: absolute;
+    width: 40px;
+    height: 22px;
+    top: -12px;
+    left: calc(50% - 20px);
+    background-image: url("/assets/img/logo/glotones-blanco.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-info-banner-delivery {
+    width: 90%;
+    min-width: 288px;
+    max-width: 500px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    background-image: url("/assets/img/others/background-section-4-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.main-info-banner-delivery h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    transform: translateY(100%);
+    color: var(--white-food);
+    text-shadow: 2px 2px 2px black;
+}
+
+.main-info-banner-delivery h1 {
+    font-size: 2.6rem;
+    text-align: center;
+    justify-content: center;
+    transform: translateY(50%);
+    color: var(--white-food);
+    text-shadow: 2px 2px 2px black;
+}
+
+.main-info-banner-lottery-title {
+    text-align: center;
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin:0 auto;
+    margin-top: 40px;
+    margin-bottom: -10px;
+    color: var(--black-food);
+}
+
+.main-info-banner-lottery {
+    width: 90%;
+    min-width: 288px;
+    max-width: 500px;
+    height: 210px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    background-image: url("/assets/img/others/background-section-4-2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.main-info-banner-lottery p {
+    font-size: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    padding:0 10px;
+    transform: translateY(50%);
+    color: var(--white-food);
+    text-shadow: 2px 2px 2px black;
+}
