@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* Aplicación con login de usuariopara obtener notas de alumnos*/
+        /* 1) crear un array de objetos para el usuario y contraseña */
+    
+    var usuarios = [
+        {
+            usuarioNombre: 'Jhony',
+            contraseña:'123456'
+        },
+        {
+            usuarioNombre: 'Pedro',
+            contraseña: 'abc'
+        },
+        {
+            usuarioNombre: 'Juan',
+            contraseña: '456'
+        },
+        {
+            usuarioNombre: 'Elisa',
+            contraseña: '789456'
+        }
+    ];
+
+    /* 2) Creamos un array de objetos para los nombres y notas de alumnos*/
+    
+    var notas = [
+        {
+            nombre: 'Jhony',
+            nota: 5
+        },
+        {
+            nombre: 'Pedro',
+            nota: 3
+        },
+        {
+            nombre: 'Juan',
+            nota: 1
+        },
+        {
+            nombre: 'Elisa',
+            nota: 4
+        }
+    ];
+
+    /* 3) Crear la función donde vamos a verificar si el usuario ingresado es correcto*/
+
+    var usuarioPrompt = prompt('Ingrese su usuario');
+    var contraseñaPrompt = prompt('Ingrese su contraseña');
+
+    function UsuarioValido(user, pass) {
+        for (var i=0; i < usuarios.length; i++) {
+            if (user === usuarios[0].usuarioNombre && pass === usuarios[0].contraseña) {
+            return true;
+            } else if (user === usuarios[1].usuarioNombre && pass === usuarios[1].contraseña) {
+            return true;
+            } else if (user === usuarios[1].usuarioNombre && pass === usuarios[2].contraseña) {
+            return true;
+            } else if (user === usuarios[1].usuarioNombre && pass === usuarios[3].contraseña) {
+            return true;
+            }
+        } return false;
+    }
+
+    function IniciarSesion(user, pass) {
+        if (UsuarioValido(user,pass)) {
+            console.log(notas);
+        } else {
+            alert('Ups, usuario o contraseña invalida');
+        }
+    }
+
+    IniciarSesion(usuarioPrompt, contraseñaPrompt);
+
+    </script>
+</body>
+</html>
