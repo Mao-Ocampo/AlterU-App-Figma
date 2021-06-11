@@ -16,6 +16,121 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: var(--black-food);
+}
+
+header {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background: var(--yellow-food);
+    border-radius: 0 0 25px 25px;
+}
+
+header .header-navbar-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+header .header-navbar-container h1 {
+    display: block;
+    font-size: 1.5rem;
+    transform: translateX(4%);
+}
+
+header .header-navbar-icons {
+    position: absolute;
+    display: inline-flex;
+    width: 22px;
+    height: 22px;
+    top: -1px;
+    right: calc(20%);
+    margin-right: 10px;
+    
+}
+
+header .header-navbar-icons img {
+    padding: 3px;
+}
+
+header .star-white {
+    filter: invert();
+}
+
+header .header-navbar-level {
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+header .header-navbar-level h5 {
+    display: block;
+    transform: translateX(4%);
+    margin-top: -10px;
+}
+
+header .header-navbar-level-icons {
+    position: absolute;
+    display: inline-flex;
+    width: 60px;
+    height: 60px;
+    padding-left: 50px;
+    top: -25px;
+
+}
+
+header .header-navbar-level-icons img{
+    padding: 2px;
+}
+
+.header-container-saldo {
+    position: relative;
+    width: 95%;
+    height: 100px;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-bottom: 50px;
+    padding: 8px;
+    background-color: var(--white-food);
+    border-radius: 23px;
+}
+
+.header-logo-glotones {
+    position: absolute;
+    width: 40px;
+    height: 23px;
+    top: 15px;
+    right: calc(4%);
+    background-image: url("/assets/img/logo/glotones.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-container-saldo h2 {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.header-container-saldo h1 {
+    font-size: 3.5rem;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
 main {
     width: 100%;
     height: auto;
@@ -25,7 +140,7 @@ main {
 .main-recommended-container {
     width: 100%;
     height: auto;
-    padding-top: 80px;
+    padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
 }
@@ -266,7 +381,7 @@ main {
 }
 
 footer {
-    width: 90%;
+    width: 100%;
     min-width: 320px;
     height: auto;
     padding: 20px 10px;
