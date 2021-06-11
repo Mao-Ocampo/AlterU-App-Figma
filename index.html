@@ -17,10 +17,8 @@
                     <h1>¡Hola Johan!</h1>
                 </div>
                 <div class="header-navbar-icons">
-                    <img src="/assets/img/icons/avatar.svg" alt="">
-                    <img src="/assets/img/icons/heart.svg" alt="">
-                    <img src="/assets/img/icons/shopping-cart.svg" alt="">
-                    <img src="/assets/img/icons/magnifying-glass.svg" alt="">
+                    <img src="/assets/img/icons/shopping-cart.svg" alt="Carrito de compras">
+                    <img src="/assets/img/icons/magnifying-glass.svg" alt="Buscar">
                 </div>
             </section>
             <section class="header-navbar-level">
@@ -28,11 +26,11 @@
                     <h5>Tu nivel</h5>
                 </div>
                 <div class="header-navbar-level-icons">
-                    <img class="star-white" src="/assets/img/icons/estrella.svg" alt="">
-                    <img class="star-white" src="/assets/img/icons/estrella.svg" alt="">
-                    <img class="star-white" src="/assets/img/icons/estrella.svg" alt="">
-                    <img src="/assets/img/icons/estrella.svg" alt="">
-                    <img src="/assets/img/icons/estrella.svg" alt="">
+                    <img class="star-white" src="/assets/img/icons/estrella.svg" alt="Estrella 1">
+                    <img class="star-white" src="/assets/img/icons/estrella.svg" alt="Estrella 2">
+                    <img class="star-white" src="/assets/img/icons/estrella.svg" alt="Estrella 3">
+                    <img src="/assets/img/icons/estrella.svg" alt="Estrella 4">
+                    <img src="/assets/img/icons/estrella.svg" alt="Estrella 5">
                 </div>
             </section>
             <section>
@@ -44,7 +42,7 @@
             </section>
     </header>
     <main>
-        <section class="main-recommended-container">
+        <section id="recommended-section" class="main-recommended-container">
             <div class="main-recommended-container-title">
                 <h2>Glotones te Recomienda!</h2>
             </div>
@@ -57,7 +55,7 @@
                 <p>Delicioso filete de cerdo asado con la ensalada de la casa, papas a la francesa y tres salsas de su elección</p>
             </div>
         </section>
-        <h2 class="main-table-title">Últimos Pedidos</h2>
+        <h2 id="history-table" class="main-table-title">Últimos Pedidos</h2>
         <section class="tables-container-slider">
             <section class="main-tables-container">
                 <div class="main-historical-table">
@@ -166,14 +164,26 @@
     <footer>
         <div class="footer-logo-glotones"></div>
         <section class="footer-social-media">
-            <img src="/assets/img/icons/013-twitter.svg" alt="">
-            <img src="/assets/img/icons/011-instagram.svg" alt="">
-            <img src="/assets/img/icons/008-youtube.svg" alt="">
-            <img src="/assets/img/icons/001-facebook.svg" alt="">
+            <img src="/assets/img/icons/013-twitter.svg" alt="Twitter">
+            <img src="/assets/img/icons/011-instagram.svg" alt="Instagram">
+            <img src="/assets/img/icons/008-youtube.svg" alt="Youtube">
+            <img src="/assets/img/icons/001-facebook.svg" alt="Facebook">
         </section>
-        <div>
-            <p>No se reservan los derechos por falta de presupuesto <span><img src="/assets/img/icons/copyright.png" alt=""></span></p>
-        </div>
+        <section>
+            <div>
+                <p>No se reservan los derechos por falta de presupuesto <span><img src="/assets/img/icons/copyright.png" alt=""></span></p>
+            </div>
+        </section>
+        <section class="footer-menu">
+            <ul class="footer-menu-container">
+                <div class="footer-menu-button"><a href="#"><img src="/assets/img/logo/icon.png" alt="Nuevo Pedido"></a></div>
+                <li><a href="#"><img src="/assets/img/icons/avatar.svg" alt="Mi perfil"><span>Mi perfil</span></a></li>
+                <li><a href="#history-table"><img src="/assets/img/icons/copy.svg" alt="Historial de Pedidos"><span>Historial</span></a></li>
+                <li><a href="#"><span class="footer-menu-pedido">Pedido</span></a></li>
+                <li><a href="#recommended-section"><img src="/assets/img/icons/heart.svg" alt="Favoritos"><span>Favoritos</span></a></li>
+                <li><a href="#"><img src="/assets/img/icons/settings-1.svg" alt="Más Ajustes"><span>Más</span></a></li>
+            </ul>
+        </section>
     </footer>
 </body>
 </html>

@@ -52,7 +52,7 @@ header .header-navbar-icons {
     width: 22px;
     height: 22px;
     top: -1px;
-    right: calc(20%);
+    right: calc(7%);
     margin-right: 10px;
     
 }
@@ -420,4 +420,75 @@ footer p img {
     width: 12px;
     margin-left: 2px;
     transform: translateY(3px);
+}
+
+footer .footer-menu {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .footer-menu-container {
+    width: 95%;
+    min-width: 288px;
+    max-width: 350px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    padding: 15px 5px 10px;
+}
+
+footer .footer-menu-container li {
+    list-style: none;
+}
+
+footer .footer-menu-container li a {
+    width: 55px;
+    height: 45px;
+    text-align: center;
+    font-size: 10px;
+    text-decoration: none;
+    color: var(--black-food);
+    display: block;
+}
+
+footer .footer-menu-container li img {
+    width: 30px;
+}
+
+footer .footer-menu-container li a span {
+    display: block;
+    font-size: 10px;
+}
+
+footer .footer-menu-pedido {
+    padding-top: 33px;
+    display: block;
+    font-size: 10px;
+}
+
+footer .footer-menu-button {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -20%;
+    background: var(--yellow-food);
+    border-radius: 50%;
+}
+
+footer .footer-menu-button img {
+    margin-top: 11px;
+    width: 30px;
+    height: 25px;
+    position: absolute;
+    left: 52%;
+    transform: translateX(-50%);
+    filter: invert();
 }
